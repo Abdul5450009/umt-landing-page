@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umt - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Grid+Single:wght@100..900&family=Bitcount+Single:wght@100..900&family=Noto+Sans+Sunuwar&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header data-aos="fade-down">
+        <span class="logo">UMT</span>
+        <span id="hamburger" style="cursor:pointer;">
+            &#9776;
+        </span>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#offer">What we offer</a></li>
+                <li><a href="#teacher">Our certified Teacher's</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home-section" id="home" data-aos="fade-up">
+            <h1>University Of Management and Technology</h1>
+            <p>Welcome to the University of Management and Technology (UMT), where we empower students to achieve their
+                academic and professional goals.</p>
+        </section>
+        <section class="about-section" id="about" data-aos="fade-up">
+            <section class="left">
+                <img src="sutdent.png" alt="">
+            </section>
+            <section class="right">
+                <h1>About Us</h1>
+                <p>The University of Management and Technology (UMT), established in 1990, is a premier institution of
+                    higher education committed to excellence in teaching, learning, research, and community service.
+                    Located
+                    in Lahore, Pakistan, UMT is recognized for nurturing leaders of tomorrow through its diverse range
+                    of
+                    undergraduate, graduate, and doctoral programs.
+
+                    With a strong emphasis on innovation, academic excellence, and personal growth, UMT empowers
+                    students to
+                    become skilled professionals and responsible citizens. The university's world-class faculty,
+                    state-of-the-art facilities, and vibrant campus life offer a dynamic environment for students to
+                    thrive
+                    academically and socially.
+
+                    Whether it's business, technology, engineering, social sciences, or humanities, UMT continues to
+                    lead
+                    the way in shaping a brighter, knowledge-driven future.</p>
+            </section>
+        </section>
+        <section class="offer-section" id="offer" data-aos="fade-up">
+            <div class="item">
+                <h2>Cutting-Edge Research</h2>
+                <p>Engage in innovative research projects that address real-world challenges and contribute to the
+                    advancement of knowledge.</p>
+            </div>
+            <div class="item">
+                <h2>Extracurricular Activities</h2>
+                <p>Participate in a variety of clubs, organizations, and events that enhance your university experience
+                    and foster personal growth.</p>
+            </div>
+            <div class="item">
+                <h2>Career Development</h2>
+                <p>Access resources and support for internships, job placements, and career counseling to help you
+                    achieve your professional goals.</p>
+            </div>
+            <div class="item">
+                <h2>Global Opportunities</h2>
+                <p>Explore study abroad programs, international partnerships, and cultural exchange initiatives that
+                    broaden your horizons.</p>
+            </div>
+        </section>
+
+        <section class="teacher-detail" id="teacher" data-aos="fade-down">
+            <h2>Our Certified Teachers</h2>
+            <p>Meet our dedicated and experienced faculty members who are committed to providing quality education and
+                mentorship to our students.</p>
+            <div class="teacher-list">
+                <div class="teacher-item">
+                    <img src="teacher-1.jpg" alt="Teacher 1" data-aos="zoom-in">
+                    <h3>Dr. Ahmad Ali</h3>
+                    <p>Expert in Business Management</p>
+                </div>
+                <div class="teacher-item">
+                    <img src="teacher-2.jpg" alt="Teacher 2" data-aos="zoom-in">
+                    <h3>Prof. Irfan Ali</h3>
+                    <p>Specialist in Computer Science</p>
+                </div>
+
+                <div class="teacher-item">
+                    <img src="https://images.pexels.com/photos/5905958/pexels-photo-5905958.jpeg?cs=srgb&dl=pexels-katerina-holmes-5905958.jpg&fm=jpg&_gl=1*2l3hrj*_ga*MTc4MzY1NDAxNC4xNzUxNzQ0NDQ1*_ga_8JE65Q40S6*czE3NTI5NTg1NjMkbzE5JGcxJHQxNzUyOTYwMzUxJGo2MCRsMCRoMA.."
+                        alt="Teacher 3" data-aos="zoom-in">
+                    <h3>Dr. Maryam Anwar</h3>
+                    <p>Expert in Environmental Science</p>
+                </div>
+
+                <div class="teacher-item">
+                    <img src="https://images.pexels.com/photos/6326379/pexels-photo-6326379.jpeg?cs=srgb&dl=pexels-vanessa-garcia-6326379.jpg&fm=jpg&_gl=1*hr5d16*_ga*MTc4MzY1NDAxNC4xNzUxNzQ0NDQ1*_ga_8JE65Q40S6*czE3NTI5NTg1NjMkbzE5JGcxJHQxNzUyOTYwMzUxJGo2MCRsMCRoMA.."
+                        alt="Teacher 4" data-aos="zoom-in">
+                    <h3>Dr. Bilal Lateef</h3>
+                    <p>Expert in Environmental Science</p>
+                    <!-- Add more teacher items as needed -->
+                </div>
+        </section>
+
+        <section class="contact-section" id="contact" data-aos="fade-up">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need more information, feel free to reach out to us.</p>
+            <form action="https://formspree.io/f/mzzvdzqo" method="POST">
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section class="footer-section">
+            <p>&copy; 2025 UMT. All rights reserved.</p>
+        </section>
+    </main>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // animation duration in ms
+            offset: 100,     // offset (in px) from the original trigger point
+            once: true       // whether animation should happen only once - while scrolling down
+        });
+    </script>
+
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const nav = document.querySelector("nav ul");
+
+        hamburger.addEventListener("click", () => {
+            nav.classList.toggle("show");
+        });
+    </script>
+
+</body>
+
+</html>
